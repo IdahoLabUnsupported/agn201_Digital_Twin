@@ -1,0 +1,43 @@
+api_key: "YTk4MjkwMGMtMTBiOC00NzFkLWIwZWMtMTk5OTI2YTk0M2Mz"
+api_secret: "ZDhkMWI1OTgtNWQ0YS00ZWFmLWI1MWItMzg4MDYxNzBiZDA0"
+deeplynx_url: "https://deeplynx.de.inl.gov"
+data_retention_days: 30
+refresh_interval: 5
+db_path: "Assets/StreamingAssets/isu_db_1.db"
+data_sources:
+  - data_source_id: 622
+    container_id: 106
+    initial_timestamp: "2023-03-15 16:06:00.000"
+    table_name: "ch3_engineering_data"
+    timestamp_column_name: "date_time"
+    secondary_index: "time"
+  - data_source_id: 623
+    container_id: 106
+    table_name: "digitals"
+    initial_timestamp: "2023-03-15 16:06:00.000"
+    timestamp_column_name: "date_time"
+    secondary_index: "time"
+  - data_source_id: 624
+    container_id: 106
+    table_name: "engineering_results"
+    initial_timestamp: "2023-03-15 16:06:00.000"
+    timestamp_column_name: "date_time"
+    secondary_index: "time"
+  - data_source_id: 625
+    container_id: 106
+    table_name: "events"
+    timestamp_column_name: "date_time"
+    initial_timestamp: "2023-03-15 16:06:00.000"
+    secondary_index: "index"
+  - data_source_id: 626
+    container_id: 106
+    table_name: "temperature"
+    timestamp_column_name: "date_time"
+    initial_timestamp: "2023-03-15 16:06:00.000"
+    secondary_index: "time"
+  - data_source_id: 880
+    container_id: 106
+    table_name: "predictions"
+    timestamp_column_name: "date_time"
+    initial_timestamp: "2023-03-11 00:06:00.000"
+    secondary_index: "time"

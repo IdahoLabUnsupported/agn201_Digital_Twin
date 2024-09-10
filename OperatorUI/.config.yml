@@ -1,0 +1,16 @@
+api_key: "YTk4MjkwMGMtMTBiOC00NzFkLWIwZWMtMTk5OTI2YTk0M2Mz"
+api_secret: "ZDhkMWI1OTgtNWQ0YS00ZWFmLWI1MWItMzg4MDYxNzBiZDA0"
+deeplynx_url: "https://deeplynx.de.inl.gov"
+data_retention_days: 30
+refresh_interval: 5
+db_path: "/Users/darrjw/isu_db"
+prediction_start_time: "2023-04-05 00:06:00.000"
+target_data_source_id: 880
+target_container_id: 106
+data_sources:
+  - data_source_id: 880
+    container_id: 106
+    table_name: "predictions"
+    timestamp_column_name: "date_time"
+    initial_timestamp: "2023-02-11 00:06:00.000"
+    secondary_index: "time"
